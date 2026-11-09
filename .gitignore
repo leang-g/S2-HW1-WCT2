@@ -1,0 +1,27 @@
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Laravel Dependencies & Secrets
+library-management/vendor/
+library-management/node_modules/
+library-management/.env
+library-management/.env.backup
+library-management/.env.production
+library-management/storage/*.key
+library-management/storage/logs/*.log
+library-management/storage/framework/cache/*
+library-management/storage/framework/sessions/*
+library-management/storage/framework/views/*
+library-management/bootstrap/cache/*.php
+
+# Intermediate Screenshots & Temp Files
+scratch/
+laravel_browser_clean.png
+laravel_welcome_final.png
+postgres_database_screenshot.png
+postgres_terminal_clean.png
+er_diagram.png
+Screenshot 2026-11-09 at 7.55.10 in the evening.png
